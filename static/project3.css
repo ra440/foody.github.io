@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(196, 194, 193);
+}
+#services{
+    background-color: rgb(196, 194, 193);
+   /* background-color: blanchedalmond;*/
+    width: 100%;
+    display: flex;
+    margin: 34px;
+    
+}
+#services .box{
+    width: 25%;
+    padding: 34px;
+    margin: 3px 6px;
+    border: 2px solid brown;
+    border-radius: 23px;
+    background-color: rgb(211, 205, 205);
+}
+#services .box img{
+    display: block;
+    /*height: 60px;*/
+    width: 75px;
+    margin: auto;
+  /*  height: 160px;*/
+    
+}
+.services-container{
+    background-color: rgb(196, 194, 193);
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    }
+.center{
+        text-align: center;
+    }

@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(196, 194, 193); 
+}
+#services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 0px ;
+    margin-bottom: 20px;
+   
+}
+/*#services .box img{
+    padding: 14px;
+    margin: 2px 15px ;
+    width: 150px;
+    height: 150px;
+}*/
+.h{
+    font-size: 26px;
+
+}
+h1{
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}

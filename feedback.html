@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+    
+            margin: 3px 4px;
+            padding: 24px;
+        
+        }
+      .items{
+        border: 2px solid black;
+            margin: 3px 4px;
+            width: 100%;
+            border-radius: 5px;
+      }
+      .conatiner h1{
+         justify-content: center;
+          align-items: center;
+      }
+        
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>This Is Feedback Form</h1>
+     
+    <form>
+
+        <input type="text" class="items" name="myname" id="name" placeholder="enter your name">
+        <div class="items">
+            gender:male<input type="radio" name="mygeneder">
+        </div>
+        <div class="items">
+            gender:female<input type="radio" name="mygeneder">
+        </div>
+        <textarea name="mytext" id="" class="items" cols="30" rows="10" placeholder="what you like the most in my page"></textarea>
+        <input type="submit" class="items" value="submit now">
+
+
+    </form>
+    </div>
+</body>
+
+</html>
